@@ -113,9 +113,9 @@
         * example
             (onsuccess) = success($event) <br/>
             The object (for example result) returned on success contains the following values.  <br/>
-            result.text that contains the text obtained from the barcode <br/>
-            result.format which is the format of the code returned <br/>
-            result.cancelled boolean value which is true if user cancelled the operation and false if user didn't cancel. This value is always false in the success callback function.
+            result.text that contains the text obtained from the barcode. <br/>
+            result.format which is the format of the code returned. <br/>
+            result.cancelled is a boolean value which is true if user cancelled the operation and false if user didn't cancel. This value is always false in the success callback function.
     * (onerror) - error method
         * example
             (onerror) = error($event)
