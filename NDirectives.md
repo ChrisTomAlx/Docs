@@ -126,7 +126,7 @@
     If you want to use this add **n-video** custom directive to any component.
 
 * Input
-    * Takes no input
+    * [videoOptions] = "{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}}"
 
 * Output
     * (onsuccess) - success method
