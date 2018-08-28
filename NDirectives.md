@@ -90,7 +90,7 @@
     Custom directive for barcode / QR code scanning from cordova devices.
     If you want to use this add **n-barcode** custom directive to any component.
 * Input (Optional will take defaults if input isn't provided)
-    * 
+    * [barcodeOptions]
     ```
     [barcodeOptions] = "{
             preferFrontCamera: boolean,
